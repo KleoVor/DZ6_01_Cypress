@@ -1,0 +1,27 @@
+{
+  "name": "dz6_01_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "test:tablet:headless": "npx cypress run --headless --env configFile=tablet",
+    "test:tablet:headed": "npx cypress run --headed --env configFile=tablet",
+    "test:laptop:headless": "npx cypress run --headless --env configFile=laptop",
+    "test:laptop:headed": "npx cypress run --headed --env configFile=laptop"
+  },
+
+
+
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "jshint": "^2.13.6"
+  }
+}
